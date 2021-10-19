@@ -1,0 +1,15 @@
+.person {
+  position: relative;
+}
+.person::before {
+  content: "";
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: green;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: relative;
+  top: -10px;
+  right: -40px;
+}

@@ -1,0 +1,72 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+.header {
+  display: grid;
+  grid-template-columns: 1fr 2fr 2fr;
+  justify-content: space-between;
+  background: darkblue;
+  color: white;
+  position: sticky;
+  top: 0px;
+  z-index: 2;
+}
+.page-info,
+.profile-info {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.search-bar {
+  background: white;
+  display: flex;
+  align-items: center;
+  border-radius: 10px;
+  color: black;
+  width: 80%;
+  margin: auto;
+}
+.search-bar input {
+  border: none;
+}
+.search-bar input:focus {
+  outline: none;
+}
+.profile-info a {
+  margin: 5px;
+  color: white;
+  font-size: smaller;
+}
+.info {
+  position: relative;
+}
+.info p {
+  position: absolute;
+  top: -4px;
+  right: -4px;
+  width: 10px;
+  height: 10px;
+  font-size: xx-small;
+  background: red;
+  border-radius: 50%;
+  text-align: center;
+}
+.profile img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+  cursor: pointer;
+}
+.icon {
+  font-size: 1rem !important;
+}

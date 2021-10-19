@@ -1,0 +1,38 @@
+.profile-zone {
+  background: url("./blog4.png");
+  background-size: cover;
+  background-position: center;
+  height: 50vh;
+  position: relative;
+  margin-bottom: 100px;
+}
+.profile-zone img {
+  width: 80px;
+  height: 90px;
+  object-fit: cover;
+  border-radius: 50%;
+  border: 2px solid white;
+}
+.profile-zone span {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  position: absolute;
+  bottom: -90px;
+  right: 350px;
+}
+.profile-page-info {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  margin-left: 10px;
+}
+.profile-page-info .feeds {
+  /* width: 90%; */
+  margin: auto;
+}
+.user {
+  margin: 20px;
+}
+.user-info * {
+  margin: 15px auto;
+}

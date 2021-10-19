@@ -1,0 +1,45 @@
+.first-wrapper-div {
+  border: 1px solid grey;
+  border-radius: 10px;
+  box-shadow: 0px 0px 5px 3px gray;
+  margin: 20px auto;
+}
+
+.first-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 10px auto;
+}
+.first-div input {
+  font-size: 0.8rem;
+  margin: auto 10px;
+  border: none;
+}
+.first-div input:focus {
+  outline: none;
+}
+.first-div img {
+  margin-left: 10px;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.second-div {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 80%;
+  border-top: 1px solid grey;
+  margin: 0 auto;
+}
+.second-div button {
+  background: lightblue;
+  border-radius: 20px;
+  padding: 10px 15px;
+  border: none;
+}
+.option span {
+  font-size: 0.8em;
+}

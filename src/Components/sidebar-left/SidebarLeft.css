@@ -1,0 +1,41 @@
+.sidebar-left-wrapper {
+  height: 90vh;
+  overflow-y: scroll;
+  position: sticky;
+  top: 50px;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+::-webkit-scrollbar-track {
+  background: white;
+}
+
+::-webkit-scrollbar-thumb {
+  background: grey;
+}
+.options button {
+  margin-left: 15px;
+  padding: 10px 20px;
+  background: lightblue;
+  border-radius: 30px;
+  border: none;
+}
+.option {
+  margin: 15px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.option span {
+  margin: auto 15px;
+}
+
+.contacts {
+  width: 95%;
+  margin: 20px auto;
+  border-top: 1px solid grey;
+}

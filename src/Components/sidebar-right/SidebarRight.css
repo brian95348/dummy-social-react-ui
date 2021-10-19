@@ -1,0 +1,31 @@
+.reminder {
+  width: 90%;
+  margin: 20px auto;
+}
+.ad {
+  width: 90%;
+  margin: 20px auto;
+  height: 50vh;
+  background: linear-gradient(rgba(0, 0, 0, 0.45), rgba(0, 0, 0, 0.45)),
+    url("./m-blog-2.jpg");
+  background-size: cover;
+  border-radius: 15px;
+  position: relative;
+  color: white;
+}
+.p1 {
+  position: absolute;
+  top: 150px;
+  right: 50px;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.p2 {
+  position: absolute;
+  top: 300px;
+  right: 10px;
+}
+.online-people {
+  width: 90%;
+  margin: 10px auto;
+}
